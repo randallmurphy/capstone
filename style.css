@@ -1,6 +1,11 @@
 /* set flex on header logo left login right text centered */
 *{
     font-size: 10px;
+   @import url(https://fonts.googleapis.com/css2?family=Spectral:wght@100;200;300;400;500;600;800&display=swap);
+   
+   body {
+     font-family: 'Spectral', serif;
+   }
 }
 
 #header{
@@ -16,7 +21,7 @@
     margin: 10px;
 }
 h1{
-    font-size: 50px;
+    font-size: 55px;
     transform: translateX(-7%);
     text-transform: uppercase;
     text-decoration: underline;
@@ -55,6 +60,9 @@ h2{
     text-decoration: underline;
     text-transform: capitalize;
 }
+p{
+    font-size: 1.5rem;
+}
 #col-1{
     
     height: 73vh;
@@ -79,15 +87,19 @@ h2{
 
 }
 #col-2{
+    
     height: 68vh;
     width: 25%;
     margin: 10px;
     padding: 5px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
     padding: 25px;
     ul > li{
-    margin: 30px;
+    margin: 22px;
     
     }
     a{
@@ -109,7 +121,7 @@ h2{
     .nav-item{
     margin:20px 50px;
     border: 1px solid black;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
     border-radius: 15px;
     font-size: x-large;
